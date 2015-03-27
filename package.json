@@ -1,0 +1,26 @@
+{
+  "name": "node-cron-array",
+  "version": "0.0.1",
+  "description": "Node.js module to convert FLV to MP3 files",
+  "preferGlobal": "false",
+  "main": "index.js",
+  "author": "Samurais ",
+  "keywords": [
+    "cron"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://Samurais@github.com/Samurais/node-cron-array.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "should": "~5.2.0",
+    "mocha": "~2.2.1"
+  },
+  "dependencies": {
+    "lodash": "~3.6.0",
+    "cron": "~1.0.9"
+  }
+}
