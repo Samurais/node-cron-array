@@ -88,7 +88,7 @@ exports.arrayToPattern = function(array) {
                 break;
             case 3:
                 uniqSortedGroup[j].forEach(function(z) {
-                    if (z < 1 || z > 12) {
+                    if (z < 0 || z > 11) {
                         console.error('>> validate month of year.');
                         throw new Error('Unsupported month format.');
                     }
@@ -96,7 +96,7 @@ exports.arrayToPattern = function(array) {
                 break;
             case 4:
                 uniqSortedGroup[j].forEach(function(z) {
-                    if (z < 0 || z > 7) {
+                    if (z < 0 || z > 6) {
                         console.error('>> validate day of week.');
                         throw new Error('Unsupported weekday format.');
                     }
